@@ -1,0 +1,6 @@
+/workspaces/MySpringboot/base/src/main/java/com/myspringboot/springboot/ServletInitializer.java
+/workspaces/MySpringboot/base/src/main/java/com/myspringboot/springboot/SpringbootApplication.java
+/workspaces/MySpringboot/base/src/main/java/com/myspringboot/springboot/controller/UserController.java
+/workspaces/MySpringboot/base/src/main/java/com/myspringboot/springboot/model/User.java
+/workspaces/MySpringboot/base/src/main/java/com/myspringboot/springboot/repository/UserRepository.java
+/workspaces/MySpringboot/base/src/main/java/com/myspringboot/springboot/service/UserService.java
