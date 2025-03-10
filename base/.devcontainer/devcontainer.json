@@ -1,16 +1,17 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/java:21",
-    "features": {
-      "java": "21"
-    },
-    "customizations": {
-      "vscode": {
-        "settings": {
-          "java.home": "/usr/lib/jvm/java-21-openjdk-amd64"
-        },
-        "extensions": [
-          "vscjava.vscode-java-pack"
-        ]
+  "name": "Java 21 Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/java:21",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "21"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "java.home": "/usr/lib/jvm/java-1.21.0-openjdk-amd64"
       }
     }
-  }
+  },
+  "postCreateCommand": "java -version"
+}
